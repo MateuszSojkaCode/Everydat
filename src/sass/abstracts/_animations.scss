@@ -1,0 +1,28 @@
+@use './colors' as *;
+
+// nav animations
+
+.nav__link-animation{
+    position: relative;
+    transition: color .3s;
+    &:hover{
+        z-index: 5;
+        color: $primary-light-4;
+    }
+    &::after{
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        // background-color: $primary-dark-1;
+        // transform: scaleX(0);
+        transition: background-color .3s;
+        border-radius: 5px;
+    }
+    &:hover::after{
+        background-color: $primary-light-2;
+        z-index: -1;
+    }
+}

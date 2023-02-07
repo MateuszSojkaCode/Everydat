@@ -1,0 +1,40 @@
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body {
+	font-family: "Roboto", sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+img {
+	height: auto;
+}
+
+input,
+button,
+textarea,
+select {
+	font-family: inherit;
+}
+
+button {
+	border: none;
+	cursor: pointer;
+}
+li {
+	list-style: none;
+}
+
+textarea {
+	resize: vertical;
+}
