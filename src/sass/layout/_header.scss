@@ -1,1 +1,19 @@
+@use '../abstracts/' as *;
 
+.header{
+    position: relative;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // background-color: aqua;
+    // isolation: isolate;
+    &::after{
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-image: $dark-purple-gradient;
+        transform: skewY(-5deg);
+        z-index: -1;
+    }
+}

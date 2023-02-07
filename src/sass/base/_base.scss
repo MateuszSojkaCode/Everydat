@@ -1,1 +1,14 @@
 
+@use '../abstracts/' as *;
+
+body{
+    background-color: $primary-light-4;
+}
+
+.wrapper{
+    margin-inline: auto;
+    width: 100%;
+    &__1300{
+        max-width: 1300px;
+    }
+}
