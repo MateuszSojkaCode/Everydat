@@ -1,0 +1,18 @@
+@use "../abstracts/" as *;
+
+.pricing {
+	position: relative;
+	height: 80vh;
+	width: 100%;
+	padding-inline: 1rem;
+	&::after {
+		content: "";
+		position: absolute;
+		inset: 0;
+		background-image: $dark-purple-gradient-transparent;
+		background-position: center;
+		background-size: cover;
+		transform: skewY(3deg);
+		z-index: -1;
+	}
+}

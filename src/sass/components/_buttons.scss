@@ -1,11 +1,11 @@
-@use '../abstracts/' as *;
+@use "../abstracts/" as *;
 
 .button {
-	padding: .5rem 4rem;
+	padding: 0.5rem 4rem;
 	text-align: center;
 	font-weight: 700;
-    font-size: $font-size-12;
-    text-transform: uppercase;
+	font-size: $font-size-12;
+	text-transform: uppercase;
 	border-radius: 5px;
 	border: 1.5px solid $primary-dark-2;
 	background-color: $light-gray-c;
