@@ -8,6 +8,8 @@ $primary-light-2: #8055af;
 $primary-light-3: #a486c6;
 $primary-light-4: #c8b6dd;
 
+$primary-light-transparent: #8b47d8a4;
+
 $primary-logo: #5C2E6A;
 $primary-logo-2: #8D2FB1;
 
@@ -34,3 +36,4 @@ $dark-gray-6: #666;
 
 $light-purple-gradient: linear-gradient(135deg, $primary-light-4, $primary-light-2,); 
 $dark-purple-gradient: linear-gradient(135deg, $primary-color, $primary-light-1); 
+$dark-purple-gradient-transparent: linear-gradient(135deg, $primary-color, $primary-light-transparent); 

@@ -7,13 +7,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 70vh;
+    height: 80vh;
     padding-inline: 1rem;
     &::after{
         content: "";
         position: absolute;
         inset: 0;
-        background-image: $dark-purple-gradient;
+        background-image: $dark-purple-gradient-transparent, url(../../../src/img/header_bg.jpg);
+        background-position: center;
+        background-size: cover;
         transform: skewY(-3deg);
         z-index: -1;
     }
@@ -40,12 +42,10 @@
         margin-inline: auto;
         max-width: 27rem;
         height: auto;
-        // max-height: 18rem;
     }
     @media(min-width: 768px){
         padding-inline: 2rem;
         &__text-box{
-            // justify-content: flex-end;
             align-items: flex-start;
             font-size: $font-size-14;
             padding: 2rem;
@@ -65,9 +65,10 @@
     @media(min-width: 992px){
         transform: translateY(-1rem);
         &__img{
+            margin-top: 3rem;
             right: 0;
             height: auto;
-            max-width: 60rem;
+            max-width: 50rem;
         }
     }
 }
