@@ -2,8 +2,8 @@
 $primary-dark-3: #1d0538;
 $primary-dark-2: #2c0755;
 $primary-dark-1: #3a0a71;
-$primary-color: #490C8D;
-$primary-light-1: #6d3da4;
+$primary-color: #411179;
+$primary-light-1: #8a47d8;
 $primary-light-2: #8055af;
 $primary-light-3: #a486c6;
 $primary-light-4: #c8b6dd;
@@ -32,5 +32,5 @@ $dark-gray-4: #444;
 $dark-gray-5: #555;
 $dark-gray-6: #666;
 
-$light-purple-gradient: linear-gradient(135deg, $primary-light-4, $primary-light-2); 
+$light-purple-gradient: linear-gradient(135deg, $primary-light-4, $primary-light-2,); 
 $dark-purple-gradient: linear-gradient(135deg, $primary-color, $primary-light-1); 
