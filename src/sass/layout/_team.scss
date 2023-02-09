@@ -1,0 +1,14 @@
+@use '../abstracts/' as *;
+
+.team{
+    position: relative;
+    color: $dark-gray-1;
+    &::after {
+		content: "";
+		position: absolute;
+		inset: 0;
+		background-image: $dark-purple-gradient-transparent;
+		transform: skewY(-3deg);
+		z-index: -1;
+	}
+}
