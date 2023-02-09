@@ -1,0 +1,29 @@
+@use '../abstracts/' as *;
+
+.reviews{
+    &__heading{
+        padding-inline: 2rem;
+        text-align: center;
+    }
+    &__container{
+        display: flex;
+    }
+    &__card{
+        position: relative;
+        margin: 2rem;
+        padding: 1rem;
+        background-color: $primary-light-2;
+        border-radius: 10px;
+    }
+    &__text{
+        margin-bottom: 1rem;
+    }
+    &__img{
+        position: absolute;
+        right: 2rem;
+        bottom: -2rem;
+        border-radius: 10px;
+        width: 5rem;
+        border: 4px solid $primary-light-3;
+    }
+}
