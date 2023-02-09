@@ -4,17 +4,42 @@
     gap: 1rem;
 	&__header {
         grid-template-rows: repeat(2, 1fr);
-		@media (min-width: 768px) {
+		@media (min-width: 48em) {
             grid-template-columns: repeat(3, 1fr);
 			grid-template-rows: 1fr;
 		}
 	}
     &__aboutus{
         grid-template-rows: repeat(2, auto);
-        @media (min-width: 768px) {
+        @media (min-width: 48em) {
             grid-template-columns: repeat(2, 1fr);
             grid-template-rows: 1fr;
         }
-        
+    }    
+    &__pricing{
+        @media(min-width: 36em){
+            gap: 4rem;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+        }
+        @media(min-width: 75em){
+            gap: 0rem;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: 1fr;
+            &--premiumPlus{
+                grid-column: 3/4;
+            }
+            &--buisness{
+                grid-column: 4/5;
+            }
+            &--premium{
+                grid-column: 2/3;
+                grid-row: 1/2;
+            }
+            &--basic{
+                grid-column: 1/2;
+                grid-row: 1/2;
+            }
+        }
     }
 }

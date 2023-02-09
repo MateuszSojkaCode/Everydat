@@ -11,3 +11,17 @@
 		letter-spacing: 4px;
 	}
 }
+.heading-secondary{
+	@media(min-width: 48em){
+		font-size: $font-size-32;
+	}
+}
+.section__text{
+	font-size: $font-size-14;
+	line-height: 1.4;
+	@media(min-width: 62em){
+		font-size: $font-size-16;
+		line-height: 1.6;
+	}
+
+}
