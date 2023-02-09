@@ -2,11 +2,9 @@
 
 .aboutus{
     padding-inline: 2rem;
+    color: $dark-gray-1;
     &__heading{
         margin-bottom: 1rem;
-    }
-    &__text{
-        font-size: $font-size-14;
     }
     &__img-box{
         width: 100%;
@@ -24,9 +22,6 @@
         }
         &__heading{
             margin-bottom: 2rem;           
-        }
-        &__text{
-            font-size: $font-size-16;
         }
     }
 }

@@ -4,6 +4,8 @@
 	position: relative;
 	width: 100%;
 	padding-inline: 2rem;
+	color: $dark-gray-1;
+	
 	&::after {
 		content: "";
 		position: absolute;
@@ -16,6 +18,13 @@
 	}
 	&__heading{
 		text-align: center;		
+	}
+	&__text{
+		text-align: center;
+	}
+	&__text{
+		margin-block: 1rem;
+		color: $dark-gray-1;
 	}
 	&__card{
 		position: relative;
@@ -44,7 +53,8 @@
 			transition: transform 1s;
 			background-color: $primary-light-3;	
 			border-radius: 1rem;
-			border: 3px solid $primary-dark-2;	
+			border: 4px solid $primary-dark-2;	
+			box-shadow: 0 1rem 1rem rgba($color: #000000, $alpha: .5);
 			&-heading{
 				margin-bottom: 0.2rem;
 				font-size: $font-size-24;
@@ -67,13 +77,16 @@
 			&-more{
 				background-color: $cta-main;
 				margin: .5rem;
-				padding: .5rem 2rem;
+				padding: 1rem 2rem;
+				text-transform: uppercase;
+				font-weight: bold;
 				border-radius: 10px;
 			}
 			&--premiumPlus{
 				background-color: $primary-light-1;	
 				background-image: $light-purple-gradient;
-				border: 3px solid $cta-main;	
+				border: 5px solid $cta-main;	
+				font-weight: bold;
 			}
 			
 		}
@@ -86,8 +99,12 @@
 			transition: transform 1s;
 			background-image: $light-purple-gradient;
 			border-radius: 1rem;
-			border: 3px solid $primary-dark-2;	
+			border: 4px solid $primary-dark-2;	
 			text-align: center;
+			&-heading{
+				margin-top: 1rem;
+				font-size: $font-size-24;
+			}
 			&-bestvalue{
 				position: absolute;
 				top: -1.2rem;
@@ -102,9 +119,20 @@
 			}
 			&-list{
 				display: flex;
-				flex-direction: column;
-				justify-content: space-evenly;	
-				height: 80%;
+				flex-direction: column;	
+				height: 60%;
+			}
+			&-listitem{
+				padding-top: 1rem;
+			}
+			&-order{
+				margin-top: 1rem;
+				padding: 1rem 2rem;
+				font-size: $font-size-16;
+				font-weight: bold;
+				text-transform: uppercase;
+				background-color: $cta-light-1;
+				border-radius: 10px;
 			}
 			&--premiumPlus{
 				background-color: $primary-light-1;	
@@ -113,10 +141,16 @@
 		}
 	}
 	@media(min-width:36em){
+		&__text{
+			width: 50%;
+			margin-inline: auto;
+			color: $light-gray-d;
+			text-shadow: 0 .2rem .2rem rgba($color: #000000, $alpha: 1.0);
+		}
 		&__card{
-			height: 20rem;
+			height: 22rem;
 			&--back{
-				height: 20rem;
+				height: 22rem;
 			}
 		}
 	}
