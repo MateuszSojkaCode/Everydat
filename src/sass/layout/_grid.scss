@@ -42,4 +42,11 @@
             }
         }
     }
+    &__tips{
+        @media(min-width: 48em){
+            gap: 4rem;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+        }
+    }
 }
