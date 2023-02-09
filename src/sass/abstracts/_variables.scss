@@ -13,5 +13,8 @@ $font-size-60: 3.75rem;
 // padding
 
 .section-padding {
-	padding-block: 8rem;
+	padding-block: 6rem;
+	@media(min-width: 48em){
+		padding-block: 8rem;
+	}
 }

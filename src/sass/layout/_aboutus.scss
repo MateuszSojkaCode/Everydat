@@ -2,11 +2,32 @@
 
 .aboutus{
     padding-inline: 2rem;
+    &__heading{
+        margin-bottom: 1rem;
+    }
+    &__text{
+        font-size: $font-size-14;
+    }
     &__img-box{
         width: 100%;
+        max-width: 30rem;
         margin-bottom: 2rem;
+        margin-inline: auto; 
     }
     &__img{
-        width: 80%;
+        margin-inline: auto; 
+        width: 90%;
+    }
+    @media(min-width: 62em){
+        &__text-box{
+            padding: 2rem;
+        }
+        &__heading{
+            margin-bottom: 2rem;
+            font-size: $font-size-32;            
+        }
+        &__text{
+            font-size: $font-size-16;
+        }
     }
 }
