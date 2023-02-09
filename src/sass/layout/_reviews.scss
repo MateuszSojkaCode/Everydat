@@ -1,7 +1,9 @@
 @use '../abstracts/' as *;
 
 .reviews{
+    padding-block: 10rem;
     &__heading{
+        margin-bottom: 1rem;
         padding-inline: 2rem;
         text-align: center;
     }
