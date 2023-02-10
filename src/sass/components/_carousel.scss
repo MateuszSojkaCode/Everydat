@@ -1,1 +1,16 @@
-
+.swiper{
+    // height: auto;
+    // max-height: auto;
+    width: 20rem;
+    // background-color: #fff;
+    padding: 3rem;
+    @media(min-width: 576px){
+        width: 576px;
+    }
+    @media(min-width: 768px){
+        width: 768px;
+    }
+    @media(min-width: 1200px){
+        width: 1200px;
+    }
+}
