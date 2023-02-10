@@ -49,4 +49,11 @@
             grid-template-rows: repeat(2, 1fr);
         }
     }
+    &__team{
+        @media(min-width: 56em){
+            gap: 4rem;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+        }
+    }
 }
