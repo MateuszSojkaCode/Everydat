@@ -1,16 +1,16 @@
-.swiper{
-    // height: auto;
-    // max-height: auto;
+.swiper{    
     width: 20rem;
-    // background-color: #fff;
     padding: 3rem;
-    @media(min-width: 576px){
-        width: 576px;
+    @media(min-width: 36em){
+        width: 36em;
     }
-    @media(min-width: 768px){
-        width: 768px;
+    @media(min-width: 48em){
+        width: 48em;
     }
-    @media(min-width: 1200px){
-        width: 1200px;
+    @media(min-width: 75em){
+        width: 74em;
+    }
+    @media(min-width: 87.5em){
+        width: 86em;
     }
 }
