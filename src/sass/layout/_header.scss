@@ -31,7 +31,8 @@
     &__info{
         margin-bottom: 1rem;
         color: $light-gray-d;
-        text-shadow: 0 .3rem .3rem $black-color;
+        text-shadow: 0 .2rem .3rem $black-color;
+        text-align: center;
         &--second{
             display: none;
         }
@@ -46,14 +47,17 @@
     @media(min-width: 48em){
         padding-inline: 2rem;
         &__text-box{
-            align-items: flex-start;
-            font-size: $font-size-16;
-            padding: 2rem;
+            align-items: flex-start;            
+            font-size: $font-size-20;
+        }
+        &__heading{
+            margin-bottom: 2rem;
         }
         &__info{
+            text-align: left;
             margin-bottom: 1rem;
             &--second{
-                margin-bottom: 2rem;
+                margin-bottom: 3rem;
                 display: block;
             }
         }
