@@ -33,7 +33,7 @@
         left: 50%;
         transform: translate(-50%, -50%);
         width: 75vw;
-        opacity: .1;
+        opacity: .2;
         z-index: 1;
     }
     @media(min-width: 48em){
@@ -44,7 +44,7 @@
             max-width: 80%;
         }
         &__img{
-            height: 90%;
+            height: 70%;
             width: auto;
         }
     }

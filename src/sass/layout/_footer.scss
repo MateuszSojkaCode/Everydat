@@ -4,13 +4,14 @@
     position: relative;
     padding-inline: 2rem;
     // padding-block: 10rem;
+    // background-image: $dark-purple-gradient-315;
     &::after{
         content: "";
         position: absolute;
         inset: 0;
-        background-color: $primary-color;
-        transform: skewY(3deg);
-        z-index: -1;
+       background-image: $dark-purple-gradient-315;
+       transform: skewY(3deg);
+       z-index: -1;
     }
     &::before{
         content: "";
@@ -19,12 +20,13 @@
         left: 0;      
         width: 100%;
         height: 30%;        
-        background-color: $cta-main;
-        background-color: $primary-color;
+        // background-color: $cta-main;
+        // background-color: $primary-color;
+        background-image: $dark-purple-gradient-315;
         z-index: -1;
     }
     &__dropdown{
-        min-width: 15rem;
+        // min-width: 15rem;
         position: relative;
         // margin: 2rem;
     }
@@ -76,6 +78,49 @@
         cursor: pointer;
         &:hover{
             background-color: $cta-main;
+        }
+    }
+    &__social-list{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 2rem;
+        padding-block: 1rem;
+    }
+    &__icon{
+        color: $light-gray-e;
+        font-size: $font-size-24;
+    }
+    @media(min-width: 48em){
+        &__box{
+            display: flex;
+            max-width: 100vw;
+            // background-color: #fff;
+        }
+        &__dropdown{
+            margin-inline: auto;
+        }
+        &__caret{
+            display: none;
+        }
+        &__select, &__list{
+            border-radius: 0;
+            border: none;
+            background: none;
+        }
+        &__list{
+            display: block;
+            position: relative;
+            top: 0;
+            margin: 0;
+            opacity: 1;
+        }
+        &__social-list{
+            width: 30vw;
+            margin-inline: auto;
+        }
+        &__icon{
+            font-size: $font-size-24;
         }
     }
 }
