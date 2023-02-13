@@ -48,5 +48,14 @@ When I finally had everything I needed I was time to start coding. And after one
 </div>
                                                                                           
 <br>
+<br>
+
+And I must say that I am satisfied with the end result. There were some difficulties during the process, but nothing serious that I would not be unable to solve with help of google. There also some parts that could work a bit better, there is a room to make some small adjustments. Propably in the nearest future I will come back to this project a fix those small issues that bother me.
+
+Features included:
+  - fully responsive
+  - animated cards
+  - slider
+  - dropdown list
                                                                                           
                                                    
