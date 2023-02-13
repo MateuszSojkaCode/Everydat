@@ -15,7 +15,7 @@
     &__box{
         max-width: 30rem;
         padding: 1rem;
-        margin-inline: auto;
+        margin: 1rem auto;
         border-radius: 10px;
         color: $dark-gray-1;
         color: $light-gray-d;
@@ -28,13 +28,12 @@
         margin-bottom: 1rem;
     }
     &__img{
-        // isolation: isolate;
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
         width: 75vw;
-        opacity: .1;
+        opacity: .2;
         z-index: 1;
     }
     @media(min-width: 48em){
@@ -42,11 +41,10 @@
             margin-bottom: 4rem;
         }
         &__box{
-            max-width: 1000%;
-            // padding-block: 2rem;
+            max-width: 80%;
         }
         &__img{
-            height: 90%;
+            height: 70%;
             width: auto;
         }
     }

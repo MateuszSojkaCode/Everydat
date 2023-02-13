@@ -37,13 +37,6 @@ dropdowns.forEach(dropdown => {
 })
 
 
-
-
-
-
-
-
-
 // slider
 
 const swiper = new Swiper(".mySwiper", {

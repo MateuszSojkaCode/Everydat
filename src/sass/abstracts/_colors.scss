@@ -34,5 +34,9 @@ $dark-gray-5: #555;
 $dark-gray-6: #666;
 
 $light-purple-gradient: linear-gradient(135deg, $primary-light-4, $primary-light-2,); 
+$light-purple-gradient-2: linear-gradient(135deg, $primary-light-3, $primary-light-1,); 
 $dark-purple-gradient: linear-gradient(135deg, $primary-color, $primary-light-1); 
-$dark-purple-gradient-transparent: linear-gradient(135deg, $primary-color, $primary-light-transparent); 
+$dark-purple-gradient-45: linear-gradient(45deg, $primary-color, $primary-light-2); 
+$dark-purple-gradient-315: linear-gradient(315deg, $primary-color, $primary-light-2); 
+$dark-purple-gradient-transparent-135: linear-gradient(135deg, $primary-color, $primary-light-transparent); 
+$dark-purple-gradient-transparent-315: linear-gradient(315deg, $primary-color, $primary-light-transparent); 

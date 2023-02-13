@@ -18,3 +18,9 @@ $font-size-60: 3.75rem;
 		padding-block: 8rem;
 	}
 }
+.section-padding-top {
+	padding-top: 6rem;
+	@media(min-width: 48em){
+		padding-top: 8rem;
+	}
+}

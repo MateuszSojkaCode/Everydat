@@ -7,11 +7,46 @@
 	font-size: $font-size-16;
 	color: $primary-dark-3;
 	text-transform: uppercase;
-	border-radius: 5px;
+	border-radius: 10px;
 	border: 2.5px solid $primary-dark-2;
-	background-color: $cta-dark-1;
+	background-color: $cta-main;
+	transition: transform .3s;
+	&:hover{
+		transform: translateY(-5px) scaleX(1.03);
+	}
 	@media(min-width: 42rem){
-		padding: 1rem 6rem;
+		padding: 1rem 5rem;
 		font-size: $font-size-20;
+	}
+}
+
+.nav{
+	&__button{
+        margin-bottom: 1rem;
+        padding: 1rem;
+        width: 100%;
+        text-align: center;
+        font-size: $font-size-16;
+        font-weight: 700;
+        font-family: inherit;
+        text-transform: uppercase;
+        border-radius: 5px;
+        border: 1.5px solid $primary-dark-2;
+        transition: transform .3s, background-color .3s ;
+        &:hover{
+            transform: translateY(-5px);
+        }
+        &--started{
+            background-color: $cta-main;
+            &:hover{
+                background-color: $cta-light-1;
+            }
+        }
+    }
+	@media(min-width: 48em){
+		&__button{
+            padding: .5rem;
+            margin: 1rem;
+        }
 	}
 }
