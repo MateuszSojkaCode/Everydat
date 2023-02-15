@@ -3,32 +3,26 @@
 .footer{
     position: relative;
     padding-inline: 2rem;
-    // padding-block: 10rem;
-    // background-image: $dark-purple-gradient-315;
     &::after{
         content: "";
         position: absolute;
         inset: 0;
-       background-image: $dark-purple-gradient-315;
+        background-color: $primary-color;
        transform: skewY(3deg);
        z-index: -1;
     }
     &::before{
         content: "";
         position: absolute;
-        bottom: -4.5rem;  
+        bottom: -4rem;  
         left: 0;      
         width: 100%;
         height: 30%;        
-        // background-color: $cta-main;
-        // background-color: $primary-color;
-        background-image: $dark-purple-gradient-315;
+        background-color: $primary-color;
         z-index: -1;
     }
     &__dropdown{
-        // min-width: 15rem;
         position: relative;
-        // margin: 2rem;
     }
     &__select{
         display: flex;
@@ -73,11 +67,11 @@
     &__link{
         display: block;
         padding: .3rem;
-        margin-block: .3rem;
         border-radius: 5px;
         cursor: pointer;
         &:hover{
             background-color: $cta-main;
+            color: $primary-dark-2;
         }
     }
     &__social-list{
@@ -86,8 +80,10 @@
         justify-content: space-evenly;
         margin-top: 2rem;
         padding-block: 1rem;
+        border-top: 1px solid $light-gray-d;
     }
     &__icon{
+        margin-top: 1rem;
         color: $light-gray-e;
         font-size: $font-size-24;
     }
@@ -95,7 +91,6 @@
         &__box{
             display: flex;
             max-width: 100vw;
-            // background-color: #fff;
         }
         &__dropdown{
             margin-inline: auto;
